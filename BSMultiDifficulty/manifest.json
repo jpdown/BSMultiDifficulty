@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
   "id": "BSMultiDifficulty",
-  "name": "$projectname$",
+  "name": "BSMultiDifficulty",
   "author": "jpdown",
   "version": "0.0.1",
   "description": "Allows you to force a different difficulty in multiplayer",

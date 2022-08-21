@@ -101,4 +101,8 @@
         <None Include="Directory.Build.targets" Condition="Exists('Directory.Build.targets')" />
         <None Include="BSMultiDifficulty.csproj.user" Condition="Exists('BSMultiDifficulty.csproj.user')" />
     </ItemGroup>
+    <ItemGroup>
+      <None Remove="manifest.json" />
+      <EmbeddedResource Include="manifest.json" />
+    </ItemGroup>
 </Project>
