@@ -3,14 +3,8 @@
 <Project>
   <!-- Manifest -->
   <PropertyGroup>
-    <AssemblyName>BSMultiDifficulty</AssemblyName>
-    <Authors>$ModAuthor$</Authors>
-    <Version>1.0.0</Version>
-    <GameVersion>1.16.4</GameVersion>
-    <Description>$ModDesc$</Description>
-    <ProjectHome></ProjectHome>
-    <ProjectSource></ProjectSource>
-    <Donate></Donate>
+    <ImportBSMTTargets>True</ImportBSMTTargets>
+    <BSMTProjectType>BSIPA</BSMTProjectType>
   </PropertyGroup>
   <ItemGroup>
     <Dependency Include="BSIPA" Version="^4.1.3" />
