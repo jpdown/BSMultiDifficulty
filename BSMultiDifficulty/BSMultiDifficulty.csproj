@@ -21,6 +21,10 @@
         <DisableZipRelease>True</DisableZipRelease>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="BSML">
+            <HintPath>$(BeatSaberDir)/Plugins/BSML.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
         <Reference Include="BeatmapCore">
             <HintPath>$(BeatSaberDir)/Beat Saber_Data/Managed/BeatmapCore.dll</HintPath>
             <Private>false</Private>
@@ -104,5 +108,7 @@
     <ItemGroup>
       <None Remove="manifest.json" />
       <EmbeddedResource Include="manifest.json" />
+      <None Remove="UI\DifficultyView.bsml" />
+      <EmbeddedResource Include="UI\DifficultyView.bsml" />
     </ItemGroup>
 </Project>
